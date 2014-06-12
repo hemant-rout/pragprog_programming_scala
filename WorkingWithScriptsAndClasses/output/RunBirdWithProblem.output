@@ -1,0 +1,5 @@
+Penguin.java:3: fly() in Penguin cannot override fly() in Bird; 
+  overridden method does not throw NoFlyException
+  public void fly() throws NoFlyException
+              ^
+1 error

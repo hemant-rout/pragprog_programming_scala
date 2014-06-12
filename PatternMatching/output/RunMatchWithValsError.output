@@ -1,0 +1,5 @@
+MatchWithValsError.scala:8: error: unreachable code
+      case MIN => println("You matched min")
+                  ^
+MatchWithValsError.scala:9: error: unreachable code
+      case _ => println("Unreachable!!")

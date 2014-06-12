@@ -1,0 +1,33 @@
+//START:GET_OUTPUT
+First feed: blog.toolshed.com
+Second feed: pragdave.pragprog.com
+//END:GET_OUTPUT
+//START:PREFIX_OUTPUT
+First Feed In Prefixed: forums.pragprog.com/forums/87
+//END:PREFIX_OUTPUT
+//START:PREFIXLIST_OUTPUT
+First feed in feeds with forum: blog.toolshed.com
+Last feed in feeds with forum: forums.pragprog.com/forums/55
+//END:PREFIXLIST_OUTPUT
+//START:APPEND_OUTPUT
+Last Feed In Appended: agiledeveloper.com/blog
+//END:APPEND_OUTPUT
+//START:FILTER_EXIST_FORALL_OUTPUT
+Feeds with blog: blog.toolshed.com, dimsumthinking.com/blog
+All feeds have com: true
+All feeds have dave: false
+Any feed has dave: true
+Any feed has bill: false
+//END:FILTER_EXIST_FORALL_OUTPUT
+//START:MAP_OUTPUT
+Feed url lengths: 17, 21, 23
+//END:MAP_OUTPUT
+//START:FOLDLEFT_OUTPUT
+Total length of feed urls: 61
+//END:FOLDLEFT_OUTPUT
+//START:FOLDLEFT2_OUTPUT
+Total length of feed urls: 61
+//END:FOLDLEFT2_OUTPUT
+//START:FOLDLEFT3_OUTPUT
+Total length of feed urls: 61
+//END:FOLDLEFT3_OUTPUT

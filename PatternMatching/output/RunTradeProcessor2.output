@@ -1,0 +1,5 @@
+TradeProcessor2.scala:11: warning: match is not exhaustive!
+missing combination          Hedge
+
+    request match {
+    ^

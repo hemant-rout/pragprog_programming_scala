@@ -1,0 +1,19 @@
+//START:FILTER_OUTPUT
+blogspot feeds: pragmactic-osxer.blogspot.com, vita-contemplativa.blogspot.com
+//END:FILTER_OUTPUT
+//START:MERGE_OUTPUT
+# of merged feeds: 5
+//END:MERGE_OUTPUT
+//START:INTERSECT_OUTPUT
+common feeds: blog.toolshed.com
+//END:INTERSECT_OUTPUT
+//START:MAP_OUTPUT
+One url: http://blog.toolshed.com
+//END:MAP_OUTPUT
+//START:FOREACH_OUTPUT
+Refresh Feeds:
+  Refreshing blog.toolshed.com
+  Refreshing pragdave.pragprog.com
+  Refreshing pragmactic-osxer.blogspot.com
+  Refreshing vita-contemplativa.blogspot.com
+//END:FOREACH_OUTPUT

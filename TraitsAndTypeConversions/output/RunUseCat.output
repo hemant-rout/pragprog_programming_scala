@@ -1,0 +1,15 @@
+(fragment of UseCat.scala):4: error: type mismatch;
+ found   : Cat
+ required: Friend
+val friend : Friend = alf // ERROR
+                       ^
+(fragment of UseCat.scala):6: error: type mismatch;
+ found   : Cat
+ required: Friend
+useFriend(alf) // ERROR
+           ^
+two errors found
+!!!
+discarding <script preamble>
+!!!
+discarding <script preamble>

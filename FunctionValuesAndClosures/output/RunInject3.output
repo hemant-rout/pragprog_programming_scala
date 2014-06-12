@@ -1,0 +1,7 @@
+(fragment of Inject3.scala):11: error: wrong number of arguments for 
+  method inject: (Array[Int],Int,(Int, Int) => Int)Int
+val sum = inject(array, 0) {(carryOver, elem) => carryOver + elem}
+           ^
+one error found
+!!!
+discarding <script preamble>

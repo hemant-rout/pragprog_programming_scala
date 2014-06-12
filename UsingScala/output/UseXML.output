@@ -1,0 +1,26 @@
+//START:DEFINE_OUTPUT
+<symbols>
+  <symbol ticker="AAPL"><units>200</units></symbol>
+  <symbol ticker="IBM"><units>215</units></symbol>
+</symbols>
+class scala.xml.Elem
+//END:DEFINE_OUTPUT
+//START:QUERY1_OUTPUT
+<symbol ticker="AAPL"><units>200</units></symbol>
+<symbol ticker="IBM"><units>215</units></symbol>
+class scala.xml.NodeSeq$$anon$2
+//END:QUERY1_OUTPUT
+//START:QUERY2_OUTPUT
+<units>200</units>
+<units>215</units>
+class scala.xml.NodeSeq$$anon$2
+200
+//END:QUERY2_OUTPUT
+//START:QUERY3_OUTPUT
+Units: 200
+//END:QUERY3_OUTPUT
+//START:QUERY4_OUTPUT
+Ticker	Units
+AAPL    200
+IBM     215
+//END:QUERY4_OUTPUT

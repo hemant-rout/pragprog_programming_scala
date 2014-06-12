@@ -1,0 +1,21 @@
+//START:FILTER_OUTPUT
+# of Filtered: 2
+//END:FILTER_OUTPUT
+//START:FILTER2_OUTPUT
+# of feeds with auth name D* and blog in URL: 1
+//END:FILTER2_OUTPUT
+//START:GET_OUTPUT
+Get Andy's Feed: Some(blog.toolshed.com)
+Get Bill's Feed: None
+//END:GET_OUTPUT
+//START:APPLY_OUTPUT
+Get Andy's Feed Using apply(): blog.toolshed.com
+Get Bill's Feed: Not found
+//END:APPLY_OUTPUT
+//START:UPDATE_OUTPUT
+Venkat's blog in original feeds: None
+Venkat's blog in new feed: agiledeveloper.com/blog
+//END:UPDATE_OUTPUT
+//START:UPDATE2_OUTPUT
+Number of forums: 2
+//END:UPDATE2_OUTPUT

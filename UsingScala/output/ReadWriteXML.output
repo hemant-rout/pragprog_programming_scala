@@ -1,0 +1,10 @@
+//START:READ_OUTPUT
+class scala.xml.Elem
+Loaded file has 15 symbol elements
+//END:READ_OUTPUT
+//START:PARSE_OUTPUT
+Number of symbol elements found is 15
+//END:PARSE_OUTPUT
+//START:STORE_OUTPUT
+The saved file contains 15 symbol elements
+//END:STORE_OUTPUT
